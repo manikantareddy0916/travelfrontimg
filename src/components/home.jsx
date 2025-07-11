@@ -2,8 +2,9 @@
 export function Home(){
     return (
         <div className="alignn" >
+            <h1>this app will store locaton details, like how to choose place how many place need to travel like dont missed places it will recomand also it will helps to which time means sesion it will recommed</h1>
             {/* <button style={{color:'red'}}>helllllo</button> */}
-            <h1 style={{color:'red'}}>home</h1>
+            <h1 style={{color:'green'}}>home</h1>
 
             <button> Add Location</button>
             <h1>add snap chat feature in it</h1>
@@ -33,14 +34,23 @@ export function Home(){
 <button type="button" class="btn btn-link">Link</button>
             </div>
             <div className="">
-            <iframe
-        src="https://www.youtube.com/embed/gtw2T55VXQQ?rel=0" 
-        allowfullscreen ></iframe>  {/* select before & */}
+
+                         {/* https://www.youtube.com/watch?v=gtw2T55VXQQ */}
+            <iframe src="https://www.youtube.com/embed/gtw2T55VXQQ?rel=0"  allowfullscreen ></iframe>  {/* watch?v= convert to embed/ , & to ? */}
+            
+            {/* //aG9xUKsrrqU&list=RDaG9xUKsrrqU&start_radio=1 */}
+            <iframe src="https://www.youtube.com/embed/aG9xUKsrrqU?list=RDaG9xUKsrrqU&start_radio=1"  allowfullscreen ></iframe>  {/* select before & */}
+
+            <iframe src="https://www.youtube.com/embed/qoq8B8ThgEM?list=RD4HRC6c5-2lQ&index=3"  allowfullscreen ></iframe>  {/* select before & */}
+            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/_B6T8O15Ohk?list=RD3V-wb9EZCZk&index=2"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+
+
             </div>
 
            <a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=doraemon&ns0=1" target="_blank"> search</a>
+    
            
         </div>
-
+        
     )
 }

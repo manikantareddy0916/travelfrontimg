@@ -1,47 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.yy{
-  background-image: url('../public/heart-1192662_1280.jpg');
-}
-
-.logo {
-  height: 6em;
+/* .content-start {
+    width: 30px;
+    height: 5px;
+    border-radius: 99px;
+    /* background-color: $text-color; Ensure this variable is defined 
+  }
   
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  .details {
+    z-index: 22;
+    position: absolute;
+    top: 240px;
+    left: 60px;
+  
+    .place-box {
+      height: 46px;
+      overflow: hidden;
+  
+      .text {
+        padding-top: 16px;
+        font-size: 20px;
+        position: relative; /* Added to make the pseudo-element relative to this 
+  
+        &:before {
+          top: 0;
+          left: 0; /* 'Left' corrected to 'left' 
+          position: absolute;
+          content: "";
+          width: 30px;
+          height: 4px;
+          border-radius: 99px;
+          background-color: white;
+        }
+      }
+    }
   }
-  to {
-    transform: rotate(360deg);
+  
+  .title-1,
+  .title-2 {
+    font-weight: 600;
+    font-size: 72px;
+    font-family: "Oswald", sans-serif;
   }
-}
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+
+  .card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.6); /* Fixed closing of rgba function 
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  
+  #btn {
+    position: absolute;
+    top: 690px;
+    z-index: 99;
+    left: 16px;
+  }
+  
+  .card-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* color: $text-color; Ensure that $text-color is defined 
+    padding-left: 16px;
+  }
+  
+  .content-place {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+   */
